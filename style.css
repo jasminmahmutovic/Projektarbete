@@ -1,0 +1,53 @@
+@import url(table.css);
+
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+    display:grid;
+    grid-template-rows: auto auto auto;
+    justify-content: center;
+    align-items: center;
+    background-color: #2f3542;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:0.5em;
+    height:2em;
+    background-color: #57606f;
+    border-radius: 3px;
+    font-size:2rem;
+    transition: 0.2s ease;
+}
+
+.navbar a {
+    margin:auto;
+    text-decoration: none;
+    color:#ffa502;
+}
+
+
+.navbar a:hover {
+    color:#3742fa;
+}
+
+article {
+    margin-top:1em;
+    background-color: #57606f;
+    color:#ffa502;
+    border-radius: 3px;
+    font-size:1.4rem;
+}
+
+footer {
+    margin-top:1em;
+    background-color: #57606f;
+    color:#ffa502;
+    border-radius: 3px;
+    font-size:2rem;
+}
